@@ -1,0 +1,2038 @@
+body{
+    background-color: #F8F0E9;
+}
+#hero {
+    padding: 20px 15px;
+}
+
+#hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hero .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero .book-genre {
+    background-color: #F9EADC;
+    padding: 6px 12px;
+    color: #f17c13;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#hero .book-hero-content h1 {
+    color: #5c4b36;
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+#hero .book-subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#hero .author {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* space between span and h3 */
+    justify-content: center; /* centers the content horizontally */
+    margin: 10px 0;
+}
+
+#hero .author span {
+    font-size: 20px;
+    color: #333;
+}
+
+#hero .author h3 {
+    font-size: 20px;
+    color: #5c4b36;
+    margin: 0;
+}
+
+
+#hero .author h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+#hero .book-description {
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+#hero .hero a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Example button styles */
+#hero .btn-primary {
+    background-color: #f17c13;
+    color: white;
+    border-radius: 50px;
+}
+
+#hero .btn-outline {
+    border: 2px solid #f17c13;
+    color: #f17c13;
+    border-radius: 50px;
+}
+
+#hero .book-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*About*/
+
+#about {
+    background-color: #F8F0E9;
+    padding: 20px 15px;
+}
+
+#about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .about-book-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: -114px;
+}
+
+#about .book-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#about .book-details .detail-item {
+    display: flex;
+    align-items: start;  
+    padding: 10px;
+    border: 1px solid #eee; /* Optional: adds subtle divider between items */
+    font-size: 18px;
+    background-color: #ffffff; /* White background for each item */
+    gap: 10px;
+}
+
+#about .book-details .detail-item i {
+    font-size: 18px;
+    color: #f17c13;
+    margin-bottom: 5px;
+}
+
+#about .book-details .detail-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+#about .book-details .detail-item p {
+    margin: 0;
+    color: #555;
+}
+
+#about .about-book-content h2 {
+    color: #5c4b36;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+#about .book-category {
+    display: flex;
+    flex-direction: row; /* side by side */
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+#about .book-category span {
+    font-size: 20px;
+    color: #f17c13;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#about .book-category i {
+    margin-right: 5px;
+}
+
+#about .about-book-content p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+#about .highlights h3 {
+    color: #5c4b36;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+#about .highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about .highlights li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#about .highlights li i {
+    color: #f17c13;
+    font-size: 16px;
+}
+
+#about .about-book {
+    display: inline-block;
+    margin-top: 10px;
+    background: #f17c13;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #f17c13;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+/*Features*/
+
+#features {
+  padding: 60px 20px; 
+}
+
+#features .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#features .section-title h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#features .section-title p {
+  font-size: 20px;
+  color: #666;
+}
+
+#features .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#features .col {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Feature Cards */
+.feature-card {
+  position: relative; /* Required for positioning the pseudo-element */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px; /* Thickness of the border */
+  height: 20%; /* Covers only 20% of the card height */
+  background-color: #f17c13;
+  border-radius: 5px; /* Optional: rounded edges */
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon i {
+  font-size: 2rem;
+  color: #f17c13;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.feature-card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.feature-card p {
+  font-size: 20px;
+  color: #555;
+}
+
+/* Chapters Overview */
+.feature-chapters {
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  background: white;
+}
+
+.feature-chapters h3 {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.feature-chapters .chapter{
+  font-size: 22px;
+  padding: 10px;
+  border-bottom: 2px solid #f17c13;
+}
+
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.chapter-item {
+  background: #F8F0E9;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: start;
+}
+
+.chapter-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f17c13;
+  
+}
+
+.chapter-item h4 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.chapter-item p {
+  font-size: 18px;
+  color: #555;
+}
+
+/*Excerpt*/
+
+#excerpt {
+    padding: 80px 0;
+  }
+  
+  .excerpt .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .excerpt .section-title h2{
+    color:  #5c4b36;
+  }
+
+  .book-excerpt-wrapper {
+    padding: 10px;
+    position: relative;
+    
+  }
+  
+  .book-page-design {
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background: #fff;
+    border-top: 5px solid #f17c13;
+    border-radius: 10px;
+  }
+  
+  .page-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+  }
+  
+  .chapter-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #excerpt .section-title{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #excerpt .section-title h2 {
+    font-size: 36px;
+    color: #5c4b36;
+    margin-bottom: 0;
+}
+
+#excerpt .section-title p {
+    font-size: 20px;
+    color: #666;
+    width: 90%;
+    text-align: center;
+}
+  
+  .excerpt-content{
+    position: relative;
+  }
+
+  .excerpt-content p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  #excerpt hr{
+    border: none;
+    border-top: 2px solid #f17c13;
+    width: 25%;
+  }
+  
+
+.excerpt-content .first-letter::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #f17c13;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+    position: relative;
+    top: -5px;
+}
+  
+  .excerpt-content .dialogue {
+    font-style: italic;
+    color: #555;
+    padding-left: 20px;
+    border-left: 3px solid #f17c13;
+  }
+  
+  .page-decoration {
+   text-align: center;
+    font-size: 18px;
+    color: #f17c13;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+  #excerpt .btn-read-more {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #fff;
+    color: #f17c13;
+    border: 1px solid #f17c13;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin: 30px;
+  }
+  
+  #features .btn-read-more:hover {
+    background: #f17c13;
+  }
+
+/*About author*/
+
+#about-author {
+    padding: 80px 10px;
+    text-align: center; /* Center text in this section */
+}
+
+#about-author h2{
+    color: #f17c13;
+}
+
+#about-author hr {
+    border: none;
+    border-top: 2px solid #f17c13;
+    width: 15%;
+  }
+  
+
+#about-author .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-author .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-author .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#about-author .author-info {
+    text-align: center;
+}
+
+  .author-image {
+    position: relative;
+    text-align: center;
+  }
+  
+  .author-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .author-signature {
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+    bottom: -20px;
+    max-width: 150px;
+    transform: rotate(-5deg);
+  }
+
+  .author-signature img{
+    background: white;
+    padding: 10px;
+  }
+  
+  .author-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .author-info h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .author-credentials {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .author-bio p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .author-awards h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .author-awards {
+    margin-top: 30px;
+    text-align: center; /* Center heading and list */
+}
+
+.author-awards ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack awards vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 10px;
+}
+
+.author-awards li {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #555;
+}
+
+.author-awards li i {
+    font-size: 22px;
+    color: #f17c13;
+    margin-right: 10px;
+}
+
+  
+  .author-social {
+    margin-top: 30px;
+  }
+  
+  .author-social h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* This centers the social links horizontally */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin-top: 10px;   
+}
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #FDF1E7;
+    color: #f17c13;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .social-links a:hover {
+    background: #f17c13;
+  }
+
+/*Testimonials*/
+
+ #testimonials {
+    padding: 10px;
+  }
+  
+  #testimonials .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+  
+  #testimonials h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5c4b36;
+    margin-bottom: 10px;
+  }
+  
+  #testimonials p {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* Critic Reviews */
+  .critic-reviews {
+    margin-bottom: 50px;
+  }
+  
+  .critic-review {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-quote {
+    font-size: 80px;
+    font-weight: bold;
+    color: #f17c13;
+    float: left;
+    opacity: 30%;
+    transform: translateY(-60px);
+    position: absolute;
+  }
+  
+  .critic-review .stars {
+    margin-bottom: 10px;
+  }
+  
+  .critic-review .stars i {
+    color: #ffcc00;
+    font-size: 20px;
+  }
+  
+  .critic-review p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .critic-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .testimonials-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    height: 316px;
+    width: calc(412px * 4 + 30px * 5); /* 4 slides + 30px margin between */
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .swiper-slide {
+    flex: 0 0 auto;
+    width: 412px;
+    margin-right: 30px;
+    background: #fff;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+
+  /* Testimonials Slider */
+  .testimonial-item {
+    background: #fff;
+    height: 255px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: start;
+  }
+  
+  .testimonial-item .stars {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-item .stars i {
+    color: #ffcc00;
+    font-size: 20px;
+  }
+  
+  .testimonial-item p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .testimonial-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-profile h4 {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Overall Rating */
+  .overall-rating {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .rating-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #5c4b36;
+  }
+  
+  .rating-stars i {
+    color: #ffcc00;
+    font-size: 24px;
+  }
+  
+  .rating-platforms {
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .rating-platforms span{
+    background-color: #F9EADC;
+    padding: 5px;
+    color: #f17c13;
+    border-radius: 50px;
+    gap: 15px;
+  }
+
+/*Purchase*/
+
+#purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if needed */
+    text-align: center; /* Center text inside */
+    padding: 40px 0px; /* Optional: Add some padding */
+}
+
+  #purchase .section-title {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #purchase .section-title h2{
+    font-size: 36px;
+  }
+
+  #purchase .section-title p{
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  #purchase .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grid-item {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .book-format-card {
+    border: 1px solid #ddd;
+    padding: 50px 40px;
+    border-top: 3px solid #f17c13;
+    border-radius: 8px;
+    text-align: center;
+    background: #fff;
+  }
+
+  .format-icon i {
+    background: #FDF1E7;
+    color: #f17c13;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  #purchase h3{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  #purchase p{
+    font-size: 20px;
+    
+  }
+
+  .format-price {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #f17c13;
+  }
+
+  .format-features {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .format-features i{
+    color: #f17c13;
+  }
+
+  .format-features li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+
+  .btn-purchase{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 85%;
+  }
+
+  .btn-bundle {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f17c13;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    width: fit-content;
+    font-size: 20px;
+  }
+
+  .retailers {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .retailer-logos{
+    margin-top: 5px;
+  }
+
+  .retailer-logos a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #000;
+  }
+
+  .bundle-offer {
+    text-align: start;
+    margin-top: 50px;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #f17c13;
+  }
+
+  .bundle-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .bundle-text {
+    flex: 1 1 60%;
+  }
+
+  .bundle-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .bundle-price .original {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #888;
+    font-size: 20px;
+  }
+
+  .bundle-price .discounted {
+    color: #f17c13;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+/*FAQ*/
+
+#faq {
+    margin-bottom: 40px;
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .faq-title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5c4b36;
+  }
+  
+  .faq-description {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .faq-arrow{
+    display: none;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faq-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .faq-item h3 {
+    font-size: 20px;
+    margin: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .faq-item:hover h3 {
+    color: #f17c13;
+  }
+  
+  .faq-content {
+    display: none;
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .faq-item .faq-content {
+    display: block;
+  }
+  
+  .faq-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-item .faq-toggle {
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+/*contact section*/
+
+#contact-section h2, h3, h4, label{
+  color: #5c4b36;
+}
+
+#contact-section h2, .content{
+  text-align: center;
+}
+
+#contact-section h2{
+  font-size: 36px;
+}
+
+#contact-section h3{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#contact-section hr{
+  border: none;
+    border-top: 2px solid #f17c13;
+    width: 18%;
+    align-items: start;
+    margin-left: 0;
+}
+
+#contact-section p{
+  font-size: 20px;
+}
+
+#contact-section .contact-item{
+  display: flex;
+  gap: 10px;
+}
+
+#contact-section h4, i{
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.contact-card{
+  background: #fff;
+  border-top: 3px solid #f17c13;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+}
+
+.contact-card i{
+  color: #f17c13;
+}
+
+.contact-item i{
+  margin-top: 22px;
+}
+
+
+.contact-form-wrapper {
+  flex: 1; 
+}
+
+.contact-form-wrapper{
+  background: #fff;
+  border-top: 3px solid #f17c13;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-section .row{ 
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box; /* ensures padding/border don't overflow */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+#contact-section button {
+  background: #f17c13;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.text-center {
+  width: 100%; /* Ensure the button takes full width */
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-top: 20px; /* Add some space above the button */
+}
+
+/*related-books*/
+
+#related-books {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#related-books h2{
+  color: #5c4b36;
+  font-size: 36px;
+}
+
+#related-books p{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.book-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s;
+  padding: 20px 0;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-image {
+  position: relative; /* Set position to relative to position child elements */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  padding: 10px; /* Optional: Add some padding */
+}
+
+.book-image img {
+  width: 100%; /* Ensure the image takes full width of the container */
+  max-width: 220px; /* Set a max width for the image */
+  display: block; /* Ensure the image is a block element */
+}
+
+#related-books .book-category {
+  position: absolute; /* Position it absolutely within the book image */
+  top: 10px; /* Adjust the top position */
+  right: 10px; /* Adjust the right position */
+  color: white; /* Ensure the text is visible */
+  background: #f17c13; /* Background color for visibility */
+  padding: 5px 10px; /* Padding for the category */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+}
+
+.book-info {
+  padding: 15px;
+  font-size: 20px;
+}
+
+#related-books i{
+  color: #f17c13;
+}
+
+.book-meta span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.book-actions a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.btn-details {
+  background: white;
+  color: #f17c13;
+  border: 1px solid #f17c13;
+  border-radius: 50px;
+}
+
+.btn-purchase {
+  background: #f17c13;
+  color: white;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.coming-soon {
+  margin-top: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 40px;
+  position: relative; /* Add this line */
+}
+
+.coming-soon-badge {
+  background: #f17c13;
+  color: #fff;
+  width: fit-content;
+  text-align: right;
+  padding: 5px;
+  position: absolute; /* Add this line */
+  top: 10px; /* Adjusted position */
+  right: 0px; /* Adjusted position */
+}
+
+.upcoming-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.upcoming-book img {
+  width: 150px;
+}
+
+.upcoming-info h3{
+  font-size: 28px;
+}
+
+.release-date{
+  color: #f17c13;
+}
+
+.btn-notify {
+  background: #f17c13;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+/*CTA*/
+
+#call-to-action {
+  padding: 20px 10px;
+  text-align: center; /* Center text inside */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.cta-wrapper {
+  background: #f17c13;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cta-book-image img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+#call-to-action .badge{
+  background: #fff;
+  color: #f17c13;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+#call-to-action h2{
+  font-size: 30px;
+}
+
+#call-to-action p{
+  font-size: 20px;
+}
+
+.cta-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.cta-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.feature-item span{
+  font-size: 17px;
+}
+
+.feature-item i{
+  font-size: 20px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center; /* Center the boxes */
+  gap: 10px; /* Space between boxes */
+  margin-top: 20px; /* Optional: Add some margin on top */
+}
+
+.countdown-box {
+  background: #F49C4D; /* Background color for the box */
+  border: 2px solid #f17c13; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside the box */
+  text-align: center; /* Center text inside the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.countdown-box span {
+  display: block; /* Make each span a block element */
+  font-weight: bolder;
+  color: #fff; /* Color for the numbers */
+}
+
+.count-label {
+  color: #fff; /* Color for the labels */
+}
+
+.cta-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#call-to-action .btn-primary {
+  background: white;
+  color: #f17c13;
+  width: 80%;
+}
+
+#call-to-action .btn-secondary {
+  background: #F49C4D;
+  color: white;
+  width: 80%;
+}
+
+/*Footer*/
+
+#footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#footer .sitename {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#footer p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#footer .social-links a {
+  background: #f17c13;
+  padding: 5px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+#footer .social-links a:hover {
+  color: #f39c12;
+}
+
+/* Scroll to Top Button */
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #f39c12;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#scroll-top:hover {
+  background: #e67e22;
+}
+
+#scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*For tablet*/
+
+@media(min-width: 768px){
+  #hero .book-cover img {
+    max-width: 60%;
+  }
+
+  #about .about-book-img img {
+    max-width: 60%;
+    margin-bottom: -130px;
+  }
+
+  #about .book-details {
+    grid-template-columns: 250px 250px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .chapters-grid {
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+
+  .author-image img {
+    width: 60%;
+  }
+
+  .author-signature {
+    right: 118px;
+    max-width: 250px;
+  }
+
+  .critic-reviews .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* space between columns */
+  }
+
+  .critic-reviews .col {
+    width: 100%; /* ensure each col fits its grid cell */
+  }
+
+  .critic-review{
+    height: 85%;
+  }
+
+  #testimonials .row:last-child {
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 20px; /* Optional: Add some margin for spacing */
+  }
+
+  #purchase .container > .row:first-of-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    grid-template-rows: 1fr 1fr;    /* 2 rows */
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #purchase .container > .row:first-of-type .col {
+    width: 100%;
+    height: 100%;
+  }
+
+  #purchase .row {
+    flex-direction: row;
+  }
+
+  .bundle-offer .row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .bundle-offer .col:first-child {
+    flex: 0 0 60%;
+  }
+
+  .bundle-offer .col:last-child {
+    flex: 0 0 40%;
+  }
+
+  #contact-section hr {
+    width: 8%;
+  }
+
+  #contact-section .contact-form-wrapper .row {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  #contact-section .contact-form-wrapper .col {
+    flex: 1;
+  }
+
+  .upcoming-book {
+    flex-direction: row;
+  }
+
+  .upcoming-book h3, p{
+    margin: 0;
+  }
+
+  #call-to-action .cta-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #call-to-action .cta-book-img {
+    flex: 1;
+  }
+
+  #call-to-action .cta-book-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #call-to-action .cta-text {
+    flex: 1;
+  }
+
+  #call-to-action .cta-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #call-to-action .cta-features .feature-item:nth-child(3) {
+    grid-column: span 2; /* Makes the third item full width below the first two */
+  }
+
+}
+
+/*For Desktop*/
+
+@media(min-width: 1024px){
+  #hero .row{
+    flex-direction: row;
+  }
+
+  #hero .col{
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  #hero .author{
+    justify-content: start;
+  }
+
+  #hero .author h3, span{
+    font-size: 20px;
+  }
+
+  #hero .container{
+    width: 80%;
+  }
+
+  #hero .book-cover img {
+    max-width: 90%;
+  }
+
+  #hero .book-hero-content h1 {
+    font-size: 52px;
+    width: 70%;
+  }
+
+  #hero .book-subtitle {
+    font-size: 24px;
+    width: 80%;
+  }
+
+  #hero p {
+    width: 80%;
+  }
+
+  #about .about-book-img img {
+    max-width: 100%;
+    margin-bottom: -154px;
+    margin-top: 100px;
+  }
+
+  #about .book-details{
+    grid-template-columns: 200px 200px;
+    width: max-content;
+    margin: 0px 40px;
+  }
+
+  #about .row{
+    flex-direction: row;
+  }
+
+  #about h2, #about h3, #about p{
+    text-align: start;
+  }
+
+  #about .book-category{
+    justify-content: start;
+  }
+
+  #about .container{
+    text-align: start;
+    width: 80%;
+  }
+
+  #about .highlights h3 {
+    margin: 30px 0 10px 0;
+  }
+
+  .feature-card{
+    height: 190px;
+  }
+
+  #features .section-title p {
+    text-align: center;
+  }
+  
+  #features .feature-chapters h3{
+    text-align: center;
+  }
+
+  #excerpt .section-title p {
+    margin-bottom: 40px;
+  }
+
+  #excerpt hr {
+    width: 6%;
+  }
+
+  #excerpt .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+
+  .book-excerpt-wrapper {
+    width: 80%; /* Set the width to 80% */
+    margin: 0 auto; /* Center the wrapper */
+  }
+
+  #about-author {
+    padding: 80px 10px;
+    text-align: start; 
+  }
+
+  #about-author h2 {
+    text-align: start;
+}
+
+  #about-author .author-info, .author-awards{
+    text-align: start; 
+  }
+
+  #about-author .author-awards ul{
+    align-items: start; 
+  }
+
+  #about-author .author-info h3{
+    margin-top: 10px;
+  }
+
+  #about-author .container {
+    display: flex;
+    flex-direction: row; /* Change to row for side by side */
+    justify-content: space-between; /* Equal distance between columns */
+    width: 80%; /* Set container width to 90% */
+    margin: 0 auto; /* Center the container */
+  }
+
+  #about-author .row {
+    display: flex;
+    flex-direction: row; /* Ensure columns are side by side */
+    width: 100%; /* Full width of the container */
+  }
+
+  #about-author .col {
+    flex: 1; /* Allow columns to take equal space */
+    margin: 0 10px; /* Optional: Add some margin for spacing */
+  }
+
+  .author-image img {
+    width: 80%;
+  }
+
+  .author-signature {
+    right: 62px;
+    max-width: 190px;
+    bottom: -24px;
+  }
+
+  .social-links {
+    justify-content: start;
+  }
+
+  #about-author hr {
+    width: 8%; /* Set the width of the hr */
+    margin: 0; /* Remove default margin */
+    margin-bottom: 20px; /* Add space below the hr */
+    align-self: flex-start; /* Align to the left */
+  }
+
+  #testimonials .section-title p{
+    text-align: center;
+  }
+
+  #testimonials .container{
+    width: 80%;
+  }
+
+  #testimonials .row:last-child {
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 20px; /* Optional: Add some margin for spacing */
+  }
+
+  #purchase .container > .row:first-of-type {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #purchase h3{
+    text-align: center;
+  }
+
+  .format-features li{
+    font-size: 17px;
+    text-align: start;
+    margin: 0;
+    line-height: revert;
+  }
+
+  .book-format-card {
+    height: 500px;
+  }
+
+  #purchase .bundle-offer h3{
+    text-align: start;
+  }
+
+  .faq-arrow {
+    display: block;
+    color: #f17c13;
+  }
+
+  #faq .container {
+    width: 90%; /* Set the width of the container to 90% */
+    margin: 0 auto; /* Center the container */
+  }
+
+  #faq .row {
+    display: flex; /* Use flexbox for the row */
+  }
+
+  #faq .col:first-child{
+    flex: 0 0 40%; /* First column takes 40% of the width */
+    padding-right: 20px;
+  }
+
+  #faq .col:last-child {
+    flex: 0 0 60%; /* Second column takes 60% of the width */
+    padding-top: 50px;
+  }
+
+  .faq-item{
+    padding: 20px;
+  }
+
+  #faq h2, #faq p{
+    width: 90%;
+    text-align: start;
+  }
+
+  #contact-section p {
+    text-align: start;
+    width: 100%;
+  }
+  
+  #contact-section .content {
+    text-align: center;
+    width: 100%;
+  }
+
+  #contact-section .row {
+    display: flex; /* Use flexbox for the row */
+    flex-direction: row; /* Change to row to align columns side by side */
+    gap: 20px; /* Add gap between columns */
+  }
+  
+  #contact-section .container .col:first-child {
+    flex: 0 0 40%; /* First column takes 40% of the width */
+  }
+  
+  #contact-section .container .col:last-child {
+    flex: 0 0 60%; /* Second column takes 60% of the width */
+  }
+
+  .contact-form-wrapper {
+    background: #fff;
+    border-top: 3px solid #f17c13;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent overflow */
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form-wrapper .row {
+    display: flex; /* Use flexbox for the row */
+    flex-direction: row; /* Align columns side by side */
+    gap: 20px; /* Add gap between columns */
+  }
+  
+  .contact-form-wrapper .col {
+    flex: 1; /* Allow columns to take equal space */
+    min-width: 0; /* Prevent overflow by allowing columns to shrink */
+  }
+
+  #related-books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+
+  #related-books p, h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #related-books .book-info p{
+    text-align: start;
+  }
+
+  .coming-soon{
+    width: 80%;
+  }
+
+  .upcoming-info{
+    width: auto;
+  }
+
+  #related-books .coming-soon p{
+    text-align: start;
+    margin-bottom: 30px;
+  }
+
+  .upcoming-book img {
+    width: 36%;
+  }
+
+  .upcoming-book {
+    max-width: 1024px;
+    gap: 40px;
+  }
+
+  #related-books .btn-notify{
+    text-align: start;
+  }
+
+  #call-to-action .cta-text, #call-to-action .cta-text h2 {
+    text-align: start;
+  }
+
+  .feature-item span {
+    font-size: 20px;
+  }
+
+  .cta-buttons{
+    display: flex;
+  }
+
+  #call-to-action .btn-primary, #call-to-action .btn-secondary{
+    width: fit-content;
+  }
+
+  #footer h3, #footer p{
+    width: 100%;
+    text-align: center;
+  }
+}
